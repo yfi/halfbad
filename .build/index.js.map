@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../index.ts"],
+  "sourcesContent": ["export function range(start:number,end:number,inc:number=1):array{\n  \n  let range = [];\n  inc = Math.abs(inc)\n  console.log(inc)\n  \nif (start<end) {\n  \n   for (let i = start; i < end ; i+=inc) range.push(i)\n   \n   \n} else {\n  \n   for (let i = start; i > end; i-=inc)  range.push(i)\n   \n   \n}\n\n  return range\n  \n}\n\nconst r = range(0,5)\nconst rr = range(4,1)\nconst rrr = range(0,10,2)\nconst rrrr = range(5,5)\nconsole.log(r,rr,rrr,rrrr)"],
+  "mappings": ";;;;;;;AAAA;AAAA;AAAA;AAAO,eAAe,OAAa,KAAW,MAAW,GAAQ;AAE/D,MAAI,SAAQ;AACZ,QAAM,KAAK,IAAI;AACf,UAAQ,IAAI;AAEd,MAAI,QAAM,KAAK;AAEZ,aAAS,IAAI,OAAO,IAAI,KAAM,KAAG;AAAK,aAAM,KAAK;AAAA,SAG7C;AAEJ,aAAS,IAAI,OAAO,IAAI,KAAK,KAAG;AAAM,aAAM,KAAK;AAAA;AAKlD,SAAO;AAAA;AAIT,MAAM,IAAI,MAAM,GAAE;AAClB,MAAM,KAAK,MAAM,GAAE;AACnB,MAAM,MAAM,MAAM,GAAE,IAAG;AACvB,MAAM,OAAO,MAAM,GAAE;AACrB,QAAQ,IAAI,GAAE,IAAG,KAAI;",
+  "names": []
+}
